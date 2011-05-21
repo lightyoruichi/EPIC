@@ -1,9 +1,5 @@
 @import "compass/css3";
-
-//-----------------------------------------------
-// The following html5-boilerplate styles should
-// probably be customized for each site
-//-----------------------------------------------
+@import "compass/typography";
 
 body, select, input, textarea {
   color: $font-color;
@@ -11,10 +7,7 @@ body, select, input, textarea {
   // font-family: Georgia, serif;
 }
 
-//Headers (h1, h2, etc) have no default font-size or margin; define those yourself
 h1, h2, h3, h4, h5, h6 {
-  // Bold might not be the best choice if you are
-  // embedding a @font-face that's already bold
   font-weight: bold;
 }
 
@@ -26,13 +19,8 @@ strong, th {
 }
 
 small {
-  // Use font-size mixin to convert to percentage for YUI
-  // http://developer.yahoo.com/yui/3/cssfonts/#fontsize
   @include font-size(11px);  // approx 85% when base-font-size eq 13px
 }
-
-// Add the 'required' attribute on your
-// inputs if you want to use these
 input:valid, textarea:valid {}
 input:invalid, textarea:invalid {
   @include border-radius(1px);
@@ -41,17 +29,123 @@ input:invalid, textarea:invalid {
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid { background-color: #f0dddd; }
 
+/*====General styles====*/
+$base-gap: $base-font-size * $base-line-height;
 
-//-----------------------------------
-// Add your own custom styles below
-//-----------------------------------
+#container {
+	width: 907px - 78px;
+	padding: 3em;
+	margin: 0 auto;
+	background: image_url('bg.png') repeat-y;
+}
 
-body {}
+#logo {
+	@include replace-text-with-dimensions('logo.png');
+	display: block;
+	margin-bottom: $base-gap * 5;
+}
 
-#container {}
+#map {
+	background: image_url('map_bg.png') no-repeat center;
+	width: image_width('map_bg.png');
+	height: image_height('map_bg.png');
+	margin-bottom: $base-gap;
+}
 
-header {}
+#mission-listing {
+	ul {
+		text-align: center;
+		margin-bottom: $base-gap;
+	}
+	li {
+		@include inline-block;
+		&#favorites {
+			margin: 0 1em;
+		}
+	}
+	a {
+		display: block;
+		width: 240px;
+		height: 64px;
+		background: #f7ae28;
+		@include border-radius(1em);
+		line-height: 58px;
+		text-align: center;
+		font-size: 2em;
+		font-family: 'ChunkFiveRegular', sans-serif;
+		color: #fff;
+		text-decoration: none;
+		margin-bottom: $base-gap;
+	}
+}
 
-#main {}
-
-footer {}
+#mission-create {
+	header {
+		overflow: hidden;
+		margin-bottom: $base-gap;
+	}
+	header a {
+		float: right;
+		background: image_url('btn_create_bg.png') no-repeat;
+		width: image_width('btn_create_bg.png');
+		height: image_height('btn_create_bg.png');
+		line-height: image_height('btn_create_bg.png');
+		font-size: 1.8em;
+		font-family: 'ActionMan', sans-serif;
+		text-align: center;
+		text-decoration: none;
+		color: #000;
+		letter-spacing: -5px;
+	}
+	form {
+		width: 80%;
+		margin: 0 auto;
+		background: #4cc5f0;
+		padding: 2em;
+		h2 {
+			position: absolute;
+			left: -9999px;
+			top: -9999px;
+		}
+		ul {
+			margin: 0;
+		}
+		li {
+			list-style: none;
+			margin-bottom: 1em;
+		}
+		label, input, textarea {
+			@include inline-block;
+			vertical-align: top;
+			font-size: 1.4em;
+		}
+		label {
+			background: #f7ae28;
+			color: #000;
+			text-align: center;
+			padding: 4px 8px;
+			margin-right: 1em;
+			font-family: 'ChunkFiveRegular', sans-serif;
+			min-width: 150px;
+			text-transform: uppecase;
+		}
+		input[type="text"], textarea {
+			min-width: 400px;
+		}
+		input[type="submit"] {
+			margin: 0 auto;
+			width: 120px;
+			display: block;
+		}
+	}
+	h3 {
+		background: image_url('mission_subhead_bg.png') center;
+		width: image_width('mission_subhead_bg.png') - 26px;
+		height: image_height('mission_subhead_bg.png') - 26px;
+		padding: 13px;
+		color: #000;
+		font-size: 1.5em;
+		font-family: 'ActionMan', sans-serif;
+		margin-bottom: $base-gap;
+	}
+}

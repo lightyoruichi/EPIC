@@ -1,0 +1,551 @@
+/* line 14, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 23, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 27, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 30, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 34, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 36, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 38, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+/* line 40, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 42, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_reset.scss */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/* line 11, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_fonts.scss */
+body {
+  font-size: 13px;
+  font-family: sans-serif;
+  line-height: 1.231;
+  *font-size: small;
+}
+
+/* line 20, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_fonts.scss */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif;
+}
+
+/* line 15, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+html {
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 17, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+ul, ol {
+  margin-left: 2em;
+}
+
+/* line 18, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 20, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+td {
+  vertical-align: top;
+}
+
+/* line 22, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  bottom: -0.25em;
+}
+
+/* line 24, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  top: -0.5em;
+}
+
+/* line 53, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+a:hover, a:active {
+  outline: none;
+}
+
+/* line 58, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  padding: 15px;
+}
+
+/* line 71, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+label, input[type="button"], input[type="submit"], input[type="image"], button {
+  cursor: pointer;
+}
+
+/* line 80, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+button, input, select, textarea {
+  width: auto;
+  overflow: visible;
+  margin: 0;
+  font-size: 100%;
+  font-family: sans-serif;
+  vertical-align: baseline;
+}
+
+/* line 84, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+textarea {
+  overflow: auto;
+  vertical-align: text-top;
+}
+
+/* line 88, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 99, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+::-moz-selection {
+  background: #ff5e99;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 100, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+::selection {
+  background: #ff5e99;
+  color: white;
+  text-shadow: none;
+}
+
+/* line 105, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+a:link {
+  -webkit-tap-highlight-color: #ff5e99;
+}
+
+/* line 118, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 120, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+.ie6 legend, .ie7 legend {
+  margin-left: -7px;
+}
+
+/* line 125, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_styles.scss */
+nav ul, nav li {
+  margin: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 10, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_helpers.scss */
+.ir {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  direction: ltr;
+  background-repeat: no-repeat;
+}
+
+/* line 12, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_helpers.scss */
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+/* line 14, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_helpers.scss */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+/* line 50, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_helpers.scss */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* line 16, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_helpers.scss */
+.clearfix {
+  zoom: 1;
+}
+/* line 61, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_helpers.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+/* line 62, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_helpers.scss */
+.clearfix:after {
+  clear: both;
+}
+
+@font-face {
+  font-family: 'ChunkFiveRegular';
+  src: url("../fonts/chunk-webfont.eot");
+  src: url("../fonts/chunk-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/chunk-webfont.woff") format("woff"), url("../fonts/chunk-webfont.ttf") format("truetype"), url("../fonts/chunk-webfont.svg#ChunkFiveRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ActionMan';
+  src: url("../fonts/action_man_extended_bold_italic-webfont.eot");
+  src: url("../fonts/action_man_extended_bold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/action_man_extended_bold_italic-webfont.woff") format("woff"), url("../fonts/action_man_extended_bold_italic-webfont.ttf") format("truetype"), url("../fonts/action_man_extended_bold_italic-webfont.svg#ActionManExtendedBoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 4, ../sass/partials/_page.scss */
+body, select, input, textarea {
+  color: #444444;
+}
+
+/* line 10, ../sass/partials/_page.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* line 14, ../sass/partials/_page.scss */
+a, a:active, a:visited {
+  color: #607890;
+}
+
+/* line 15, ../sass/partials/_page.scss */
+a:hover {
+  color: #003366;
+}
+
+/* line 17, ../sass/partials/_page.scss */
+strong, th {
+  font-weight: bold;
+}
+
+/* line 21, ../sass/partials/_page.scss */
+small {
+  font-size: 85%;
+}
+
+/* line 25, ../sass/partials/_page.scss */
+input:invalid, textarea:invalid {
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -o-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -khtml-border-radius: 1px;
+  border-radius: 1px;
+  -moz-box-shadow: 0 0 5px 0 red;
+  -webkit-box-shadow: 0 0 5px 0 red;
+  -o-box-shadow: 0 0 5px 0 red;
+  box-shadow: 0 0 5px 0 red;
+}
+
+/* line 30, ../sass/partials/_page.scss */
+.no-boxshadow input:invalid,
+.no-boxshadow textarea:invalid {
+  background-color: #f0dddd;
+}
+
+/*====General styles====*/
+/* line 35, ../sass/partials/_page.scss */
+#container {
+  width: 829px;
+  padding: 3em;
+  margin: 0 auto;
+  background: url('/images/bg.png?1305968420') repeat-y;
+}
+
+/* line 42, ../sass/partials/_page.scss */
+#logo {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+  background-image: url('/images/logo.png?1305968312');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 146px;
+  height: 70px;
+  display: block;
+  margin-bottom: 80.015px;
+}
+
+/* line 48, ../sass/partials/_page.scss */
+#map {
+  background: url('/images/map_bg.png?1305968312') no-repeat center;
+  width: 809px;
+  height: 381px;
+  margin-bottom: 16.003px;
+}
+
+/* line 56, ../sass/partials/_page.scss */
+#mission-listing ul {
+  text-align: center;
+  margin-bottom: 16.003px;
+}
+/* line 60, ../sass/partials/_page.scss */
+#mission-listing li {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+}
+/* line 7, ../../../../../usr/local/lib/ruby/gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+#mission-listing li {
+  *display: inline;
+}
+/* line 62, ../sass/partials/_page.scss */
+#mission-listing li#favorites {
+  margin: 0 1em;
+}
+/* line 66, ../sass/partials/_page.scss */
+#mission-listing a {
+  display: block;
+  width: 240px;
+  height: 64px;
+  background: #f7ae28;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -o-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -khtml-border-radius: 1em;
+  border-radius: 1em;
+  line-height: 58px;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'ChunkFiveRegular', sans-serif;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 16.003px;
+}
+
+/* line 83, ../sass/partials/_page.scss */
+#mission-create header {
+  overflow: hidden;
+  margin-bottom: 16.003px;
+}
+/* line 87, ../sass/partials/_page.scss */
+#mission-create header a {
+  float: right;
+  background: url('/images/btn_create_bg.png?1305968312') no-repeat;
+  width: 335px;
+  height: 51px;
+  line-height: 51px;
+  font-size: 1.8em;
+  font-family: 'ActionMan', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  letter-spacing: -5px;
+}
+/* line 100, ../sass/partials/_page.scss */
+#mission-create form {
+  width: 80%;
+  margin: 0 auto;
+  background: #4cc5f0;
+  padding: 2em;
+}
+/* line 105, ../sass/partials/_page.scss */
+#mission-create form h2 {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+}
+/* line 110, ../sass/partials/_page.scss */
+#mission-create form ul {
+  margin: 0;
+}
+/* line 113, ../sass/partials/_page.scss */
+#mission-create form li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+/* line 117, ../sass/partials/_page.scss */
+#mission-create form label, #mission-create form input, #mission-create form textarea {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  vertical-align: top;
+  font-size: 1.4em;
+}
+/* line 7, ../../../../../usr/local/lib/ruby/gems/1.8/gems/compass-0.11.1/frameworks/compass/stylesheets/compass/css3/_inline-block.scss */
+#mission-create form label, #mission-create form input, #mission-create form textarea {
+  *display: inline;
+}
+/* line 122, ../sass/partials/_page.scss */
+#mission-create form label {
+  background: #f7ae28;
+  color: #000;
+  text-align: center;
+  padding: 4px 8px;
+  margin-right: 1em;
+  font-family: 'ChunkFiveRegular', sans-serif;
+  min-width: 150px;
+  text-transform: uppecase;
+}
+/* line 132, ../sass/partials/_page.scss */
+#mission-create form input[type="text"], #mission-create form textarea {
+  min-width: 400px;
+}
+/* line 135, ../sass/partials/_page.scss */
+#mission-create form input[type="submit"] {
+  margin: 0 auto;
+  width: 120px;
+  display: block;
+}
+/* line 141, ../sass/partials/_page.scss */
+#mission-create h3 {
+  background: url('/images/mission_subhead_bg.png?1305968312') center;
+  width: 647px;
+  height: 14px;
+  padding: 13px;
+  color: #000;
+  font-size: 1.5em;
+  font-family: 'ActionMan', sans-serif;
+  margin-bottom: 16.003px;
+}
+
+/*/mediaquery*/
+/*/mediaquery*/
+@media print {
+  /* line 10, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* line 12, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  a, a:visited {
+    color: #444 !important;
+    text-decoration: underline;
+  }
+
+  /* line 13, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 14, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 15, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* line 16, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 17, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* line 18, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 19, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+}
+
+  /* line 21, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 22, ../../../../../usr/local/lib/ruby/gems/1.8/gems/html5-boilerplate-1.0.0/stylesheets/html5-boilerplate/_media.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}

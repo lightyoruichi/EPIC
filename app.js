@@ -29,9 +29,7 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', function(req, res){
-  res.render('index', {
-    title: 'Supermom'
-  });
+  res.render('index');
 });
 
 // Only listen on $ node app.js

@@ -1,2 +1,36 @@
-h1= title
-p Welcome to #{title}
+#mission
+	section#map
+	section#mission-listing
+		nav
+			ul
+				li#my-missions
+					a(href="#") My Missions
+				li#favorites
+					a(href="#") Favorites
+				li#categories
+					a(href="#") Categories
+		#mission-listing-results
+	section#mission-create
+		header
+			a(href="#") Create A Mission
+		form#mission-create-form
+			h2 Create A Mission
+			ul
+				li
+					label(for="title") Mission Title
+					input#title(type="text",name="title")
+				li
+					label(for="location") Location
+					input#location(type="text", name="location")
+				li
+					label(for="problem") Problem
+					textarea#problem(name="problem")
+				li
+					label(for="solution") Solution
+					textarea#solution(name="solution")
+				li
+					input(type="submit", value="Submit")
+			section#mission-needs
+				h3 Needs
+			section#mission-tasks
+				h3 Tasks
